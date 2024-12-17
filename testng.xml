@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="PetSuite">
+	<listeners>
+		<listener class-name="api.utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="PetTests">
+		<classes>
+			<!--<class name="api.test.UserTests" /> -->
+			<class name="api.test.UserTestsByPropertiesFile" />
+			<!--<class name="api.test.DDTests"/>  -->
+		</classes>
+	</test> <!--
+	PetTest -->
+</suite> <!--
+TestSuite -->
